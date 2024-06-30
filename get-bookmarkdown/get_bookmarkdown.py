@@ -9,8 +9,8 @@ import base64
 
 
 url = appex.get_url()
-if not url:
-	url = sys.argv.get(1)
+if not url and len(sys.argv) > 1:
+	url = sys.argv[1]
 if not url:
 	url = clipboard.get()
 
