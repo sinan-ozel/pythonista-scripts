@@ -1,0 +1,1 @@
+Share URL with this extension. It copies the URL in Markdown format, adds the title and favicon of a page. This creates a bookmark to be used with the mardown format, hence the name, "bookmarkdown".
